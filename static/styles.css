@@ -1,0 +1,31 @@
+.main {
+    position: fixed;
+    top: auto;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.worst {
+    position: relative;
+}
+
+.fandom {
+    position: relative;
+    margin-top: -1rem;
+    animation: blinker 4s linear infinite;
+    font-family: "Comic Sans MS";
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
